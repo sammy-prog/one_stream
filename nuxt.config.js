@@ -18,13 +18,17 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://fonts.googleapis.com/css?family=Quicksand&display=swap',
+      },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "~/assets/fonts/quicksand.css",
 ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -130,7 +130,7 @@ html {
   scroll-behavior: smooth;
 }
 * {
-  font-family: 'Quicksand' , 'sans-serif';
+  font-family: 'Quicksand', sans-serif;
 }
 .header__container {
   background-color: #2B2D3D;
@@ -159,7 +159,7 @@ html {
 }
 .header-items a{
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
   font-weight:700;
   font-size: 1.15vw;
 }
